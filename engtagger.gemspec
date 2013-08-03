@@ -15,5 +15,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = EngTagger::VERSION
 
+  gem.add_development_dependency 'gemfury'
   gem.add_dependency 'lru_redux'
 end
